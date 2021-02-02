@@ -19,8 +19,6 @@ Put the password for your postgres user.<br />
 Run the commands in the databaseSchema.sql file.<br />
 Our database is ready now. <br />
 
-
-
 ## Run the Back-end side 
 `$ npm run server` 
 For the best visualisation of the data use Postman platform for the GET requests. <br />
@@ -32,6 +30,14 @@ In the Index.js is the core of our server.<br />
 You can find the postgres-node.js connection and the creation of the dummy measurments in the database/psql.js file.<br />
 The routes handling (API-CRUD operations) is in the devicesRoutes.js file.<br />
 You can find the Back-end code in the server file.
+
+### Technologies
+1. React.js (Front-End)
+2. Node.js (Back-End)
+3. Postgres-Sql (Database)
+4. Styled Components (Styling)
+5. React-Bootstrap (Front-End Form Component)
+6. Express.js (API requests)
 
 ### CRUD OPERATIONS-HANDLING THE MEASUREMENTS
 
