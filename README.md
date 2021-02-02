@@ -39,13 +39,13 @@ You can find the Back-end code in the server file.
 -The serialNumber must be in uppercase.
 For example: Filter an return a device with serialNumber RXATRABTIM <br />
 [http://localhost:4000/devices/serialNumber=RXATRABTIM] <br />
-<br />
+
 2. To return all the devices with with a given average measurement that pass a given threshold for a given time interval <br />
 [http://localhost:4000/devices//propertie={propertie}&threshold={threshold}&hours={hours}] <br />
 For example: FIlter and return the devices with  <br />
 [http://localhost:4000/devices/propertie=co&threshold=986&hours=1]
 -The propertie can be only = co, pm25, pm10, no2, so2, temperature, humidity. <br />
-<br />
+
 3. To return average measurements for a given device based on a given time interval and detail. <br />
 [http://localhost:4000/devices/serialNumber={serialNumber}/interval={interval}&detail={detail}] <br />
 For example: Filter and return the measurments per hour for the RXATRABTIM the last 12 hours. <br />
@@ -59,7 +59,7 @@ For example: Filter and return the measurments per hour for the RXATRABTIM the l
 • day (per day)
 • week (per week)
 • hour (per hour)...
-<br />
+
 4. Filter and return average measurements for a given device between two given dates in the given time detail, 
 [http://localhost:4000/devices/serialNumber={serialNumber}/date1={date1}&date2={date2}&detail={detail}]
 -The serialNumber must be in uppercase.
