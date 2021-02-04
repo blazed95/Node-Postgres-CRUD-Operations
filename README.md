@@ -42,7 +42,7 @@ You can find the Back-end code in the server file.
 ### CRUD OPERATIONS-HANDLING THE MEASUREMENTS
 
 1. To Return a device given the serial number: [http://localhost:4000/devices/serialNumber={serialNumber}]  <br /> 
--The serialNumber must be in uppercase.
+-The serialNumber must be in uppercase. <br />
 For example: Filter an return a device with serialNumber RXATRABTIM <br />
 [http://localhost:4000/devices/serialNumber=RXATRABTIM] <br />
 
