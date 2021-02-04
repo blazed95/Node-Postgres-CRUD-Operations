@@ -56,22 +56,22 @@ For example: FIlter and return the devices with  <br />
 [http://localhost:4000/devices/serialNumber={serialNumber}/interval={interval}&detail={detail}] <br />
 For example: Filter and return the measurments per hour for the RXATRABTIM the last 12 hours. <br />
 [http://localhost:4000/devices/serialNumber=SADZXCASD/interval=12_hours&detail=hour]. <br />
--The serialNumber must be in uppercase.
--The interval must be Number_TimeInterval... :
-• 2_weeks (last 2 weeks)
-• 5_hours (last 5 hours)
-• 32_minutes (last 32 minutes)...
--The Detail must be :
-• day (per day)
-• week (per week)
-• hour (per hour)...
+-The serialNumber must be in uppercase. <br />
+-The interval must be Number_TimeInterval... : <br />
+• 2_weeks (last 2 weeks) <br />
+• 5_hours (last 5 hours) <br />
+• 32_minutes (last 32 minutes)... <br />
+-The Detail must be : <br />
+• day (per day) <br />
+• week (per week) <br />
+• hour (per hour)... <br />
 
-4. Filter and return average measurements for a given device between two given dates in the given time detail, 
-[http://localhost:4000/devices/serialNumber={serialNumber}/date1={date1}&date2={date2}&detail={detail}]
--The serialNumber must be in uppercase.
--Both date1 and date2 must be :
-• 2021-01-22 (year/month/day)
--The Detail must be :
-• day (per day)
-• week (per week)
-• hour (per hour)...
+4. Filter and return average measurements for a given device between two given dates in the given time detail,  <br />
+[http://localhost:4000/devices/serialNumber={serialNumber}/date1={date1}&date2={date2}&detail={detail}] <br />
+-The serialNumber must be in uppercase. <br />
+-Both date1 and date2 must be : <br />
+• 2021-01-22 (year/month/day) <br />
+-The Detail must be : <br />
+• day (per day) <br />
+• week (per week) <br />
+• hour (per hour)... <br />
