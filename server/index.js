@@ -21,7 +21,6 @@ app.use((req, res, next) => {
         'Access-Control-Allow-Headers',
         'Origin, X-Requested-With, Content-Type, Accept'
     )
-    //it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.
     next() //It passes control to the next matching route. 
 })
 app.use(cors({
@@ -31,9 +30,6 @@ app.use(cors({
 app.use(express.json());
 
 app.use("/devices", devicesRoutes)
-
-
-
 
 
 app.get('/', (req, res) => {
